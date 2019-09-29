@@ -92,6 +92,43 @@ body{
     margin-bottom: 20px;
 }
 
+/* Developer */
+.developer-img{
+    height:200px;
+    width:200px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.developer-left{
+    font-size: bold;
+    color:#eeee;
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.developer-right{
+    font-size: bold;
+    color:#eeee;
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* footer */
+.footer{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .offset:before{
     height:4rem;
     margin-top:-4rem;
