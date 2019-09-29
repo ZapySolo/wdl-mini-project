@@ -1,0 +1,105 @@
+body{
+    overflow-x:hidden;
+    font-family: 'Lato', sans-serif;
+    background-color:#505962;
+}
+
+/*  Navigation  */
+.navbar{
+    padding:.7rem 1rem;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    transition: background-color .5s ease 0s;
+}
+
+.navbar-nav .nav-link{
+    color:white!important;
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{
+    color:#00adb5!important;
+}
+
+
+.navbar-brand img {
+    height: 2rem;
+    margin-right: 10px;
+    border-radius: 16px;
+
+}
+
+.navbar-toggler{
+    border:0px;
+}
+
+/* Procedure */
+.procedure {
+    background-color: #EEEEEE;
+    margin-top:30px;
+    display:block;
+}
+
+.procedure-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    width:60px;
+    border-radius: 30px;
+    overflow-x:hidden;
+    border: 3px solid #00adb5;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:25px;
+
+}
+
+/* Service */
+
+.service{
+    background-color:#505962;
+    margin-top:30px;
+    display:block;
+}
+
+.service-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Counter */
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.offset:before{
+    height:4rem;
+    margin-top:-4rem;
+    content:"";
+    display:block;
+}
+
+
+[class*="col-"]{
+    padding:1rem;
+}
