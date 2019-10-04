@@ -36,6 +36,14 @@ body{
     border:0px;
 }
 
+/* Landing Image */
+
+.home-inner{
+    background-image: url('../assets/truck.jpg');
+}
+
+
+
 /* Procedure */
 .procedure {
     background-color: #EEEEEE;
@@ -121,7 +129,7 @@ body{
 
 /* footer */
 .footer{
-    margin-top: 120px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
