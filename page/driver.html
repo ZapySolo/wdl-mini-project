@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Manjari|Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="assets/grp_icon.ico">
+        <script src="https://kit.fontawesome.com/cb9c78214e.js" crossorigin="anonymous"></script>
+        <title>Driver Home</title>
+</head>
+<body>
+        <nav class="navbar" style="background-color: white;  box-shadow: 0 10px 40px -20px black;
+        -moz-box-shadow: 0 10px 20px -24px black;
+        -webkit-box-shadow: 0 10px 20px -24px black;
+        -o-box-shadow: 0 10px 20px -24px black;
+        -ms-box-shadow: 0 10px 20px -24px black;
+        " >
+                <a class="navbar-brand ml-3" href="#">
+                    <img src="../assets/logo.jpeg" width="32" height="32" alt="Logo" style="border-radius: 16px;">
+                </a>
+                <div class="text-center mx-auto">
+                    <span style="font-size:2rem;font-weight:600;"></span>
+                </div>
+                <div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" style="display: flex;align-items: center;background-color: grey;border:0px;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div><img style="border-radius:16px;" src="https://source.unsplash.com/random/200x200" alt="Profile" height="32" width="32"></div>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="dropdown-item" >Sign-in as<br><span id="user_email" style="font-weight:600;"></span></div>
+                            <div class="dropdown-divider"></div>
+                            <a href="../index.html">
+                                <div class="dropdown-item" style="display:flex; justify-content: center; justify-content: center; align-items:center; height:50px;">
+                                        Logout
+                                    </div></a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <a class="btn btn-primary" href="#" role="button">Logout</a> -->
+        
+            </nav>
+            <div class="main" align="center" style="padding-top:200px;">
+                <div class="header">
+                        <h2>Your Request has been Submitted Successfully</h2> 
+                </div>
+                <div class="message">
+                    <h4>you will get a call soon for a delivery on mobile no 997728392347</h4>
+                    <h5>please make sure you are connected to the network till then</h5>
+                </div>
+            </div>
+    
+
+<script>
+    var url_string = window.location.href;
+    var url = new URL(url_string);
+    var email = url.searchParams.get("u_email");
+
+    if(!email){
+        window.open('../index.html', '_self');
+    }
+
+    document.getElementById("user_email").innerHTML = email;
+</script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+</body>
+</html>

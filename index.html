@@ -1,229 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Car Booking</title>	
+    <title>Truck Booking</title>
     <link rel="shortcut icon" href="assets/logo.jpeg">
-	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/arrow.css">
-	<link rel="stylesheet" href="css/fixed.css">
-	<link rel="stylesheet" href="css/lightbox.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/owl.theme.default.css">
-    <link rel="stylesheet" href="css/waypoints.css">    
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/arrow.css">
+    <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/waypoints.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<!--  HOME  -->
-<div id="home">
+    <!--  HOME  -->
+    <div id="home">
 
 
-<!-- NAVIGATION  -->
-<div id="nav">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand"><img src="assets/logo.jpeg" alt="LOGO" style="height: 32px;">CAR BOOKING</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                    <span class="navbar-toggler-icon"> <i class="fas fa-bars"></i> </span>
-                </button>
-                <div class="collape navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#home" class="nav-link">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#developer" class="nav-link">CONTACT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#procedure" class="nav-link">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#feedback" class="nav-link">FEEDBACK</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#login" class="nav-link">LOGIN</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-</div>
-
-<div id="location-input" class="offset">  
-<div class="landing">
-    <div class="home-wrap">
-        <div class="home-inner">
-            
-        </div>
-    </div>
-</div>
-   <!--  <img src="assets/truck.jpg" alt="Truck Image" width="100%"> -->
-</div>
-<!--  END NAVIGATION -->
-
-
-
-<!--  PROCEDURE  -->
-<div id="procedure" class="procedure offset">
-    <div class="container">
-        <div class="text-center">
-            <h1>Procedure</h1>
-            <div class="row">
-                <div class="col col-md-3  col-sm-12 col-xs-12 procedure-container">
-                    <div class="img-container">
-                        <img src="assets/wdl-icon1.png" alt="Location" height="50px">
+        <!-- NAVIGATION  -->
+        <div id="nav">
+            <div class="container">
+                <nav id="nav_bar" class="navbar navbar-expand-lg fixed-top navbar-dark">
+                    <div class="container-fluid">
+                        <a href="#" class="navbar-brand"><img src="assets/logo.jpeg" alt="LOGO"
+                                style="height: 32px;">TRUCK BOOKING</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarResponsive">
+                            <span class="navbar-toggler-icon"> <i class="fas fa-bars"></i> </span>
+                        </button>
+                        <div class="collape navbar-collapse" id="navbarResponsive">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#procedure" class="nav-link">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#services" class="nav-link">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#footer" class="nav-link">CONTACT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="page/feedback.html" class="nav-link">FEEDBACK</a>
+                                </li>
+                                <li id="login_" class="nav-item">
+                
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="text-container">
-                        <h5>Enter the Pick-Up & Destination Location</h5>
-                    </div>
-                </div>
-                <div class="col col-md-3  col-sm-12 col-xs-12 procedure-container">
-                    <div class="img-container">
-                        <img src="assets/wdl-icon2.png" alt="Location" height="50px">
-                    </div>
-                    <div class="text-container">
-                        <h5>Payment</h5>
-                    </div>
-                </div>
-                <div class="col col-md-3 col-sm-12 col-xs-12 procedure-container">
-                    <div class="img-container">
-                        <img src="assets/wdl-icon1.png" alt="Location" height="50px">
-                    </div>
-                    <div class="text-container">
-                        <h5>Track Your Goods</h5>
-                    </div>
-                </div>
-                <div class="col col-md-3 col-sm-12 col-xs-12 procedure-container">
-                    <div class="img-container">
-                        <img src="assets/wdl-icon3.png" alt="Location" height="40px">
-                    </div>
-                    <div class="text-container">
-                        <h5>Get Your Goods Delivered</h5>
-                    </div>
-                </div>
+                </nav>
             </div>
         </div>
-    </div>
-</div>
-<!--  PROCEDURE END -->
+        <!--  END NAVIGATION -->
 
+        <!--  INPUT LOCATION -->
+        <div id="location-input" class="offset" style="">
+            <div align="right" class="container-fluid" style="margin-top:150px;margin-bottom:200px;opacity: 0.8;"
+                style="">
+                <div style="width:370px; margin: 50px; margin-left: 10px ;margin-right: 20px ; border:1px solid white; border-radius: 5px;background-color: white; box-shadow: 0px 13px 40px -25px black; padding-bottom:20px; 
+            box-shadow: 0 3px 20px 0px black;
+            -moz-box-shadow: 0 3px 20px 0px black;
+            -webkit-box-shadow: 0 3px 20px 0px black;
+            -o-box-shadow: 0 3px 20px 0px black;
+            -ms-box-shadow: 0 3px 20px 0px black;
+            ">
+                    <div class="form-custom" align=""
+                        style="margin-left:20px; margin-right:20px;padding-left:15px;padding-right:15px;">
 
+                        <div class="form-group"
+                            style="display: flex; align-items: center; margin-top:20px;padding-top: 10px;">
+                            <div id="state_system_container" style="width:50%;font-size: 21px;" align="center">
+                                <p id="state_system">Book Truck</p>
+                            </div>
+                            <div id="state_admin_container" style="width:50%; font-size: 21px;" align="center">
+                                <p id="state_admin">Earn</p>
+                            </div>
+                        </div>
 
-<!--  PARALLEX WALLPAPER  -->
-<div id="parallex" class="offset">
-    <img src="assets/wdl-image24.jpg" alt="Car Booking" width="100%">
-</div>
-<!--  PARALLEX WALLPAPER END -->
+                        <div id="book-truck-field" onsubmit="return checkifLoggedIn();">
+                            <form action="page/direction.html" method="get">
+                                <div class="form-header" align="left"
+                                    style=" padding:10px; margin-top:10px; margin-right:20px;color:#4A4A4A;font-size: 26px;font-weight: 100;">
+                                    Book A Truck Now
+                                </div>
+                                <div class="form-group" style="margin-top:20px;">
+                                    <input type="text" class="form-control" id="pick_location" name="pick_location"
+                                        placeholder="Pick-Up Location" required
+                                        style="height:45px;border: 0px solid #7386D5; border-bottom: 1px solid #00adb5; border-radius: 0px;">
+                                </div>
+                                <div class="form-group" style="margin-top:30px;">
+                                    <input id="drop_location" class="form-control" type="text" required
+                                        placeholder="Drop-off Location" name="drop_location"
+                                        style="height:45px;border: 0px; border-bottom: 1px solid #00adb5;border-radius: 0px;">
+                                </div>
+                                <div class="form-group"
+                                    style="display: flex; align-items: center; margin-top:50px; margin-bottom:30px;">
+                                    <button type="submit" class="btn" id="log_in" name="login"
+                                        style="width:100%; background-color: #00adb5; border:2px solid #00adb5;"> <span
+                                            style="font-size: 17px;font-weight:500;color:#4A4A4A;">Submit</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
 
+                        <div id="earn-field">
+                            <form action="page/driver.html"  method="get">
+                                <div class="form-header" align="left"
+                                    style=" padding:10px; padding-top:0px;margin-top:0px; margin-right:20px;color:#4A4A4A;font-size: 23px;font-weight: 100;">
+                                    Start Getting Customers as Driver
+                                </div>
+                                <div class="form-group" style="margin-top:0px;padding-top:1px;">
+                                    <input type="email" aria-describedby="emailHelp" class="form-control" required
+                                        id="user_email" name="u_email" placeholder="Enter Your Email"
+                                        style="height:45px;border: 0px solid #7386D5; border-bottom: 1px solid #00adb5; border-radius: 0px;">
+                                </div>
+                                <div class="form-group" style="margin-top:30px;">
+                                    <input id="user_password" class="form-control" type="password" required
+                                        placeholder="Enter Your Password" name="u_password"
+                                        style="height:45px;border: 0px; border-bottom: 1px solid #00adb5;border-radius: 0px;">
+                                </div>
+                                <div class="form-group"
+                                    style="display: flex; align-items: center; margin-top:50px; margin-bottom:30px;">
+                                    <button type="submit" class="btn" id="log_in" name="login"
+                                        style="width:100%; background-color: #00adb5; border:2px solid #00adb5;"> <span
+                                            style="font-size: 17px;font-weight:500;color:#4A4A4A;">Submit</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
 
-
-<!--  SERVICES  -->
-<div id="services" class="service offset" style="padding-bottom: 10px;">
-    <div class="container">
-        <div class="text-center">
-
-            <div class="row" style="color:#EEEEEE">
-                <div class="col col-md-4  col-sm-12 col-xs-12 service-container">
-                    <div class="">
-                        <img src="assets/wdl-icon4.png" alt="Location" height="60px">
-                    </div>
-                    <div class="text-container">
-                        <h5>24/7 Customer Support</h5>
-                    </div>
-                    <div class="text-container" style="margin-top: 10px;">
-                        <h6>A dedicated 24x7 customer support team always at your service to help solve any problem</h6>   
-                    </div>
-                </div>
-                <div class="col col-md-4  col-sm-12 col-xs-12 service-container">
-                    <div class="">
-                        <img src="assets/wdl-icon5.png" alt="Location" height="60px">
-                    </div>
-                    <div class="text-container">
-                        <h5>Your Goods Safety First</h5>
-                    </div>
-                    <div class="text-container "style="margin-top: 10px;">
-                        <h6>Sit back and relax while we diliver your items safely at the destination</h6>   
-                    </div>
-                </div>
-                <div class="col col-md-4  col-sm-12 col-xs-12 service-container">
-                    <div class="">
-                        <img src="assets/wdl-icon6.png" alt="Location" height="60px">
-                    </div>
-                    <div class="text-container">
-                        <h5>Top Rated Driver-Partners</h5>
-                    </div>
-                    <div class="text-container" style="margin-top: 10px;">
-                        <h6>All our driver-partners are background verified and trained to deliver only the best experience</h6>   
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--  SERVICES END -->
-
-
-
-<!--  COUNTER  -->
-<div id="counter" class="offset" style="background-color:#00ADB5; padding-top: 90px; padding-bottom: 120px;">
-    <div class="container">
-        <div class="text-center">
-            <div class="row" style="color:#222831">
-                <div class="col col-md-4  col-sm-12 col-xs-12 counter-container">
-                    <div class="text-container" style="margin-top:0px;">
-                        <h1>890</h1>
-                    </div>
-                    <div class="text-container" >
-                        <h6>Happy Client</h6>   
-                    </div>
-                </div>
-                <div class="col col-md-4  col-sm-12 col-xs-12 counter-container">
-                    <div class="text-container" style="margin-top:0px;">
-                        <h1>675</h1>
-                    </div>
-                    <div class="text-container">
-                        <h6>Total Cars</h6>   
-                    </div>
-                </div>
-                <div class="col col-md-4  col-sm-12 col-xs-12 counter-container">
-                    <div class="text-container" style="margin-top:0px;">
-                        <h1>2</h1>
-                    </div>
-                    <div class="text-container">
-                        <h6>Tatal Cities</h6>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-<!--  COUNTER END -->
+            <!-- END INPUT LOCATION -->
 
 
-<!--  MOBILE APP  -->
-<div id="mobile" class="offset" style="background-color: white; padding-left: 40px;">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col col-md-6" >
-                <h1>Download The App Now</h1>
+            <!--  PROCEDURE  -->
+            <div id="procedure" class="procedure offset">
+                <div class="container">
+                    <div class="text-center">
+                        <div class="procedure_title">
+                            <h1>Procedure</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md-3  col-sm-12 col-xs-12 procedure-container">
+
+                                <div class="img-container">
+                                    <img src="assets/wdl-icon1.png" alt="Location" height="50px">
+                                </div>
+                                <div class="text-container">
+                                    <h5>Enter the Pick-Up & Destination Location</h5>
+                                </div>
+                            </div>
+                            <div class="col col-md-3  col-sm-12 col-xs-12 procedure-container">
+                                <div class="img-container">
+                                    <img src="assets/wdl-icon2.png" alt="Location" height="50px">
+                                </div>
+                                <div class="text-container">
+                                    <h5>Payment</h5>
+                                </div>
+                            </div>
+                            <div class="col col-md-3 col-sm-12 col-xs-12 procedure-container">
+                                <div class="img-container">
+                                    <img src="assets/wdl-icon1.png" alt="Location" height="50px">
+                                </div>
+                                <div class="text-container">
+                                    <h5>Track Your Goods</h5>
+                                </div>
+                            </div>
+                            <div class="col col-md-3 col-sm-12 col-xs-12 procedure-container">
+                                <div class="img-container">
+                                    <img src="assets/wdl-icon3.png" alt="Location" height="40px">
+                                </div>
+                                <div class="text-container">
+                                    <h5>Get Your Goods Delivered</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col col-md-6">
-                <img src="assets/wdl-image2.jpg" alt="Mobile App" height="350px">
+            <!--  PROCEDURE END -->
+
+
+
+
+            <div id="video-play-button" style="height:100px; width:100px; position:absolute;
+                float:left;
+
+                z-index:300000;
+                margin-top: 330px;
+                margin-left:650px;
+                ">
+
+                <svg width="150px" height="150px" viewBox="0 0 194 197" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Tablet" transform="translate(-223.000000, -2921.000000)">
+                            <g id="Group-3" transform="translate(227.000000, 2925.000000)">
+                                <g id="Group-2" stroke="white" stroke-linecap="square" stroke-width="7">
+                                    <path
+                                        d="M92,4.0392612 C91.3139266,4.0392612 90.6278677,4.05319659 89.9419323,4.05300072 C41.8242329,4.0392612 0,36.6962724 0,96.5392612 C0,154.783742 46,189.039261 92,189.039261"
+                                        id="Line-2"></path>
+                                    <path
+                                        d="M80.2504049,4.0392612 C79.6165327,4.0392612 -2.6660735,21.1713805 2.28832011,99.1268099 C7.24271372,177.082239 68.8173356,186.841647 84.1730892,186.841647"
+                                        id="Line-2-Copy-4"></path>
+                                    <path
+                                        d="M174.381092,6.30626399 C191.093609,10.4646651 157.869265,0.84237657 129.85764,16.6788606 C104.34225,31.1040887 83.3649419,62.9772622 85.8520575,100.400234 C91.0696095,178.907359 169.521193,186.841647 185.692585,186.841647"
+                                        id="Line-2-Copy-8"
+                                        transform="translate(135.672007, 96.573955) scale(-1, 1) translate(-135.672007, -96.573955) ">
+                                    </path>
+                                    <path
+                                        d="M136.809821,0.539261199 C150.991086,-0.807080826 120.249696,-0.807080826 92.2380717,15.0294032"
+                                        id="Line-2-Copy-9"
+                                        transform="translate(116.310657, 7.514702) scale(-1, 1) translate(-116.310657, -7.514702) ">
+                                    </path>
+                                    <path
+                                        d="M185.5,4.0392612 C184.813927,4.0392612 182.458724,0.539044614 181.772789,0.539044614 C133.655089,0.525521673 92,37.1962724 92,97.0392612 C92,155.283742 137.886968,189.039045 183.886968,189.039045"
+                                        id="Line-2-Copy-2"
+                                        transform="translate(138.750000, 94.789046) scale(-1, 1) translate(-138.750000, -94.789046) ">
+                                    </path>
+                                </g>
+                                <g id="Group" transform="translate(66.000000, 56.000000)">
+                                    <polygon id="Rectangle" fill="#00ADB5"
+                                        points="9.99459444 3.17742389 51.9945944 39.044942 9.95715339 72.4818986">
+                                    </polygon>
+                                    <path
+                                        d="M42.0746478,37.5003006 C49.3753043,37.5860881 46.3576989,38.1981095 33.0218316,39.336365 C13.0180306,41.0437482 -33.1050423,37.7894968 -30.9253522,37.5003006"
+                                        id="Line-2-Copy-3" stroke="#00ADB5" stroke-width="7" stroke-linecap="square"
+                                        transform="translate(7.474408, 38.664733) rotate(90.000000) translate(-7.474408, -38.664733) ">
+                                    </path>
+                                    <path
+                                        d="M38.4589272,30.5611601 C15.6394996,30.2130916 -27.9577129,38.5168916 -25.5331456,38.2276954 C-23.1085782,37.9384992 61.2783547,30.9092287 38.4589272,30.5611601 Z"
+                                        id="Line-2-Copy-6" stroke="#00ADB5" stroke-width="7" stroke-linecap="square"
+                                        transform="translate(8.369797, 34.392796) scale(-1, 1) rotate(96.000000) translate(-8.369797, -34.392796) ">
+                                    </path>
+                                    <path
+                                        d="M53.4380786,36.7648142 C56.4224203,39.3646344 35.0484374,24.1655013 28.9256746,18.3171592 C24.3371152,13.9342579 21.6598938,11.7435332 19.6213856,10.0759336 C12.0754807,3.90301367 9.08934943,1.23827225 12.7544208,4.22951208 C18.3300814,8.78007507 50.453737,34.164994 53.4380786,36.7648142 Z"
+                                        id="Line-2-Copy-5" stroke="#00ADB5" stroke-width="7" stroke-linecap="square">
+                                    </path>
+                                    <path
+                                        d="M52.2023675,74.5297868 C55.1867092,77.129607 33.8127263,61.9304739 27.6899635,56.0821318 C23.1014041,51.6992305 20.4241827,49.5085058 18.3856745,47.8409063 C10.8397696,41.6679863 7.8536383,39.0032449 11.5187096,41.9944847 C17.0943702,46.5450477 49.2180258,71.9299666 52.2023675,74.5297868 Z"
+                                        id="Line-2-Copy-7" stroke="#00ADB5" stroke-width="7" stroke-linecap="square"
+                                        transform="translate(31.221806, 57.795571) scale(-1, 1) translate(-31.221806, -57.795571) ">
+                                    </path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
             </div>
-        </div>
-    </div>
-</div>
-<!--  MOBILE APP END -->
+            <!--  PARALLEX WALLPAPER  -->
+            <div id="video-play" id="parallex" class="offset">
+                <video id="truck-video" width="100%" poster="assets/blackthumbnail.jpg">
+                    <source src="assets/web-development-video.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+            <!--  PARALLEX WALLPAPER END -->
 
 
 
-<!--  WEB DEVELOPER  -->
+            <!--  SERVICES  -->
+            <div id="services" class="service offset" style="padding-bottom: 10px;">
+                <div class="container">
+                    <div class="text-center">
+
+                        <div class="row" style="color:#EEEEEE">
+                            <div class="col col-md-4  col-sm-12 col-xs-12 service-container">
+                                <div class="">
+                                    <img src="assets/wdl-icon4.png" alt="Location" height="60px">
+                                </div>
+                                <div class="text-container">
+                                    <h5>24/7 Customer Support</h5>
+                                </div>
+                                <div class="text-container" style="margin-top: 10px;">
+                                    <h6>A dedicated 24x7 customer support team always at your service to help solve any
+                                        problem</h6>
+                                </div>
+                            </div>
+                            <div class="col col-md-4  col-sm-12 col-xs-12 service-container">
+                                <div class="">
+                                    <img src="assets/wdl-icon5.png" alt="Location" height="60px">
+                                </div>
+                                <div class="text-container">
+                                    <h5>Your Goods Safety First</h5>
+                                </div>
+                                <div class="text-container " style="margin-top: 10px;">
+                                    <h6>Sit back and relax while we diliver your items safely at the destination</h6>
+                                </div>
+                            </div>
+                            <div class="col col-md-4  col-sm-12 col-xs-12 service-container">
+                                <div class="">
+                                    <img src="assets/wdl-icon6.png" alt="Location" height="60px">
+                                </div>
+                                <div class="text-container">
+                                    <h5>Top Rated Driver-Partners</h5>
+                                </div>
+                                <div class="text-container" style="margin-top: 10px;">
+                                    <h6>All our driver-partners are background verified and trained to deliver only the
+                                        best experience</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  SERVICES END -->
+
+
+
+            <!--  COUNTER  -->
+            <div id="counter" class="offset"
+                style="background-color:#00ADB5; padding-top: 90px; padding-bottom: 120px;">
+                <div class="container">
+                    <div class="text-center">
+                        <div class="row" style="color:#222831">
+                            <div class="col col-md-4  col-sm-12 col-xs-12 counter-container">
+                                <div class="text-container" style="margin-top:0px;">
+                                    <h1>890</h1>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Happy Client</h6>
+                                </div>
+                            </div>
+                            <div class="col col-md-4  col-sm-12 col-xs-12 counter-container">
+                                <div class="text-container" style="margin-top:0px;">
+                                    <h1>675</h1>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Total Cars</h6>
+                                </div>
+                            </div>
+                            <div class="col col-md-4  col-sm-12 col-xs-12 counter-container">
+                                <div class="text-container" style="margin-top:0px;">
+                                    <h1>2</h1>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Tatal Cities</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  COUNTER END -->
+
+
+            <!--  MOBILE APP  -->
+            <div id="mobile" class="offset" style="background-color: white; padding-left: 40px;">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col col-md-6">
+                            <h1>Download The App Now</h1>
+                        </div>
+                        <div class="col col-md-6">
+                            <img src="assets/wdl-image2.png" alt="Mobile App" height="350px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  MOBILE APP END -->
+
+
+
+            <!--  WEB DEVELOPER  -->
+            <!--
 <div id="developer" class="offset" style="margin-top:50px; padding-bottom: 40px;background-color: #222831">
     <div class="container">
         <div class="text-center">
@@ -248,7 +400,7 @@
                         <p>Facebook:: facebook.com/zapywho</p>
                         <p>Github:: @ZapySolo</p>
                         <p>LinkedIN:: https://www.linkedin.com/in/zapywho/</p>          
-                        <p>Website:: @zapy.website</p>
+                        <p>Website:: www.zapy.tech</p>
                     </div>
                 </div>
             </div>
@@ -256,24 +408,127 @@
         </div>
     </div>
 </div>
-<!--  WEB DEVELOPER END -->
+-->
+            <!--  WEB DEVELOPER END -->
 
 
-
-<!--  FOOTER  -->
-<div id="footer" class="offset">
-    <div class="contaier-fluid" style="background-color: black; height:200px;">
-        <div class="row">
-            <div class="col col-md-12">
-                <div class="footer"><p>© 2019 Car Booking, Inc.</p> </div>
+            <!--  FOOTER  -->
+            <div id="footer" class="offset">
+                <div class="contaier-fluid" style="background-color: black; height:200px;">
+                    <div class="row ">
+                        <div class="col col-md-12 mt-5">
+                            <div align="center" style="color:white;">
+                                <p>further inquiry about the service please visit
+                                    <strong>www.zapy.tech</strong><br>email us at <strong>officialsupport@zapy.com</strong><br>©
+                                    2019 Car Booking, Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
-<!--  FOOTER END -->
+            <!--  FOOTER END -->
 
-</div>
-<!--  HOME END -->
+        </div>
+        <!--  HOME END -->
+
+
+        <!--JS Script Goes Here-->
+
+        <script>
+            var url_string = window.location.href;
+            var url = new URL(url_string);
+            var email = url.searchParams.get("email");
+            var password = url.searchParams.get("password");
+
+            function checkifLoggedIn(){
+                if(email && password){
+                    return true;
+                } else {
+                    alert("You need to Log-in first");
+                    return false;
+                }
+            }
+
+            if(email && password){
+            } else {
+                document.getElementById("login_").innerHTML = '<a href="page/login.html" class="nav-link">LOGIN</a>';
+            }
+
+
+            //when user scrolls through 650px
+            myID = document.getElementById("home");
+            var myScrollFunc = function () {
+                var y = window.scrollY;
+                if (y >= 650) {
+                    document.getElementById("nav_bar").style.backgroundColor = "black";
+                    //background-color: black;
+                } else {
+                    document.getElementById("nav_bar").style.backgroundColor = "";
+                }
+            };
+            window.addEventListener("scroll", myScrollFunc);
+
+            //on press input field toggle button (enter destination...earn) fields
+            document.getElementById("state_system").onclick = function () {
+                change_state("state_system")
+            };
+            document.getElementById("state_admin").onclick = function () {
+                change_state("state_admin")
+            };
+
+            document.getElementById("earn-field").style.display = "none";
+            document.getElementById("book-truck-field").style.display = "none";
+
+            function change_state(state) {
+                document.getElementById("earn-field").style.display = "none";
+                document.getElementById("book-truck-field").style.display = "none";
+
+                if ((state + "_container") === "state_system_container") {
+                    document.getElementById("book-truck-field").style.display = "block";
+                } else if ((state + "_container") === "state_admin_container") {
+                    document.getElementById("earn-field").style.display = "block";
+                }
+
+                document.getElementById("state_system_container").style.borderBottom = "0px";
+                document.getElementById("state_admin_container").style.borderBottom = "0px";
+                document.getElementById(state + "_container").style.borderBottom = "2px solid #00adb5";
+            }
+
+            change_state("state_system");
+
+
+            video_status = "not-playing";
+
+            document.getElementById('video-play').onclick = function () {
+                if (video_status === 'not-playing') {
+                    video_status = "playing";
+                    document.getElementById("video-play-button").style.display = "none";
+                    document.getElementById('truck-video').play();
+
+                } else if (video_status === 'playing') {
+                    video_status = "not-playing";
+                    document.getElementById("video-play-button").style.display = "block";
+                    document.getElementById('truck-video').pause();
+
+                }
+            };
+            document.getElementById('video-play-button').onclick = function () {
+                if (video_status === 'not-playing') {
+                    video_status = "playing";
+                    document.getElementById("video-play-button").style.display = "none";
+                    document.getElementById('truck-video').play();
+
+                } else if (video_status === 'playing') {
+                    video_status = "not-playing";
+                    document.getElementById("video-play-button").style.display = "block";
+                    document.getElementById('truck-video').pause();
+
+                }
+            };
+            
+        </script>
+
+
 
 
 </body>
@@ -290,4 +545,5 @@
 <script src="js/validator.js"></script>
 <script src="js/waypoints.js"></script>
 <!--- End of Script Source Files -->
+
 </html>
